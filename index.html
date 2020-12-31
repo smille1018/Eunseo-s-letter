@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunseo's Letter</title>
+
+    <link rel="shortcut icon" href="https://i.ibb.co/qpK3kNs/smile3.png">
+
+    <meta property="og:image" content="https://i.ibb.co/s6D4QXc/ogimg.jpg">
+    <meta property="og:title" content="Eunseo's Letter">
+    <meta property="og:description" content="시크릿 이벤트가 있으니 잘 찾아보세용😍">
+
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poor Story', cursive;
+        }
+        body {
+            background-color: #ffd400;
+        }
+        .HNY1 {
+            background-image: url('https://i.ibb.co/7gf7Zrz/2021-HNY.png');
+            background-size: cover;
+            background-position: center;
+            width: 300px;
+            height: 150px;
+            margin: 70px auto 0px auto;
+        }
+        .envelope {
+            width: 340px;
+            height: 190px;
+            background-image: url('https://i.ibb.co/Q6V5f6h/envelope.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0px auto 0px auto;
+            cursor: pointer;
+        }
+        .envelope-msg {
+            color: #000080;
+            text-align: center;
+        }
+        .letter-close {
+            display: block;
+        }
+        .letter-open {
+            display: none;
+        }
+        .rtan {
+            width: 170px;
+            height: 200px;
+            background-image: url('https://i.ibb.co/dbHzQdP/Kakao-Talk-20201230-100651459.gif/150x150');
+            background-size: cover;
+            background-position: center;
+            margin: 30px auto 0px auto;
+            border-radius: 80px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 20px 1px darkslateblue;
+        }
+        h1 {
+            text-align: center;
+            color: #000080;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .messagebox {
+            color: brown;
+            background-image: url('https://i.ibb.co/tmJ657y/letter.png');
+            background-size: 100%;
+            width: 500px;
+            height: 580px;
+            margin: 0 auto 30px auto;
+            padding: 30px;
+            font-size: 20px;
+            line-height: 30px;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .from {
+            text-align: right;
+            margin-bottom: 0px;
+        }
+        .smile {
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin: 7px;
+            margin-left: 10px;
+        }
+        .first {
+            background-image: url('https://i.ibb.co/8cc4qdq/smile1.png');
+            background-size: cover;
+        }
+        .second {
+            background-image: url('https://i.ibb.co/Kb3Nk1x/smile2.png');
+            background-size: cover;
+        }
+        .third {
+            background-image: url('https://i.ibb.co/FW5vctF/smile4.png');
+            background-size: cover;
+        }
+        .forth {
+            background-image: url('https://i.ibb.co/KsstNwy/smile5.png');
+            background-size: cover;
+        }
+        .fifth {
+            background-image: url('https://i.ibb.co/qpK3kNs/smile3.png');
+            background-size: cover;
+        }
+        .sixth {
+            background-image: url('https://i.ibb.co/pXWpYwD/smile6.png');
+            background-size: cover;
+        }
+        .new_year {
+            color: yellowgreen;
+            margin-top: 20px;
+        }
+
+
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width:300px;
+                padding:20px;
+            }
+            .rtan {
+                width: 150px;
+                height: 150px;
+                margin: 30px auto 0px auto;
+            }
+            .h1 {
+                font-size: 28px;
+            }
+            .envelope {
+                margin: 150px auto 0px auto;
+            }
+            
+}
+    </style>
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+        function go_event() {
+            alert('💛Congratulations! THIS IS SECRET EVENT💛');
+            window.location.href='https://forms.gle/a7t5XEYhP8t96sFz9';
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="letter-close">
+        <div class="HNY1"></div>
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">봉투를 열어보세요!</h2>
+        <a href='https://kor.pngtree.com/so/새해' class="new_year">출처_새해 png에서 kor.pngtree.com</a>
+    </div>
+    
+    <div class="letter-open">
+        <div class="rtan"></div>
+        <h1>2020년 수고했어요☺</h1>
+        <div class="messagebox">
+        10대의 마지막을 기념으로 <br />
+        html로 웹 편지를 만들어봤습니당! <br />
+        올해 코로나로 지치고 힘든 일이 <br />
+        많았을텐데 다들 잘 견디고 앞을 향해 <br />
+        나아가느라 수고했습니다~ <br />
+        각자에게 2020년이 어떤 의미로 <br />
+        다가왔을지 모르겠지만 그것이 힘든 <br />
+        일이든 좋은 일이든 앞으로 펼쳐질 인생의 <br />
+        스토리를 나아가기 위한 경험이 되었을 <br />
+        거라 믿어요💕 <br />
+        불안정한 삶에서 눈 앞에 보이는 목표가 <br />
+        괜스레 멀게 느껴지더라도 의지를 갖고 <br />
+        같이 잘 이겨내서 2021년도도 힘차게 나아가자구요:) <br />
+        앞으로도 좋은 인연으로 잘 지냅시다^^ <br />
+        Happy New year & Fiting!!! <br />
+        <p class="from">2020.12.31 <br /> 10대의 마지막의 은서</p>
+        </div>
+        <div class="smile first"></div>
+        <div class="smile second"></div>
+        <div class="smile third"></div>
+        <div class="smile forth"></div>
+        <div class="smile fifth" onclick="go_event()"></div>
+        <div class="smile sixth"></div>
+    </div>
+    
+
+    
+</body>
+</html>
